@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+    <cron>
+        <url>/internal/refresh</url>
+        <target>default</target>
+        <description>Refresh the server cache every 2 minutes</description>
+        <schedule>every 2 minutes</schedule>
+    </cron>
+</cronentries>
