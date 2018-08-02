@@ -1,0 +1,5 @@
+cron:
+  - description : "Refresh server cache every 2 minutes"
+    url : /internal/refresh
+    schedule : every 2 minutes
+    target : default

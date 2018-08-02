@@ -9,6 +9,11 @@ public class ApiController {
 
     @GetMapping("/hello")
     public String sayHello(@RequestParam String name) {
-        return "Hello " + name;
+        return "Hello " + name + " !! Have a good day :)";
+    }
+
+    @GetMapping("/internal/refresh")
+    public void refreshCache() {
+        System.out.println("Refreshing the server cache");
     }
 }
